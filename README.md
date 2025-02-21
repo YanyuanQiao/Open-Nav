@@ -24,11 +24,6 @@ We have made our dataset publicly available for easy access. You can download it
 ☑️ Release **OpenNav_R2R-CE_100** for quick and cost-effective testing in simulated environments.  
 ⬜ Release **Full implementation** of Open-Nav.  
 
-## Acknowledgements
-
-This project is built upon the contributions of previous works. We would like to thank the authors of the following projects for their open-source implementations, which greatly inspired and facilitated our research: **[DiscussNav](https://github.com/LYX0501/DiscussNav)**
-
-If you find our work useful, please also consider citing these projects alongside our paper.
 
 ## Acknowledgements
 
