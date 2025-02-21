@@ -16,7 +16,7 @@ Vision-and-Language Navigation (VLN) tasks require an agent to follow textual in
 
 We have made our dataset publicly available for easy access. You can download it from:
 
-**OpenNav_R2R-CE_100**: [Download Here]([https://drive.google.com/file/d/1O78Ox0_fbiYRU-J38oVn8fU7XTNOqd6e/view?usp=drive_link](https://drive.google.com/file/d/1SfrPWqCIiivwduCYPMe-Za1wOt4eU6G9/view?usp=sharing))
+**OpenNav_R2R-CE_100**: [Download Here](https://drive.google.com/file/d/1SfrPWqCIiivwduCYPMe-Za1wOt4eU6G9/view?usp=sharing)
 
 
 ## TODOs
