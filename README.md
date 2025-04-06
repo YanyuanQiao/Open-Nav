@@ -110,16 +110,16 @@ Path:
 
 - Download link: [ResNet-50 pretrained on Gibson for DD-PPO](https://zenodo.org/record/6634113/files/gibson-2plus-resnet50.pth)
 
-This ResNet-50 depth encoder is trained for PointGoal navigation on the Gibson dataset and used to extract visual features from depth images in our pipeline.
+This ResNet-50 depth encoder is trained for PointGoal navigation on the Gibson dataset and used to extract visual features from depth images.
 
-#### 🤖 External Models
+#### 🤖 External VLM Models
 
-Some external models are required for instruction understanding:
+Some external models are required for Scene Perception:
 
 - [**SpatialBot**](https://github.com/BAAI-DCAI/SpatialBot)
 - [**RAM (Recognize Anything Model)**](https://github.com/xinyu1205/recognize-anything)
 
-Please refer to their respective repositories for model download and setup instructions. These models are used to extract fine-grained spatial and object-level features to support the reasoning process of open-source LLMs.
+Please refer to their respective repositories for model download and setup instructions. These models are used to get spatial visual information to support the reasoning process of open-source LLMs.
 
 Clone or place them under the root directory:
 
