@@ -97,7 +97,7 @@ We provide several pre-trained models to support waypoint prediction and visual 
 Path: 
 > waypoint_prediction/checkpoints/check_val_best_avg_wayscore
 
-- [RGB-D (FoV 90) weights used in our paper]([https://drive.google.com/file/d/1hRdecKWHnKjidIT_i5H5lEGRS53ewWEs/view?usp=drive_link](https://drive.google.com/file/d/16Vk3ummmyLvpQr16TzBL-iwZNlrELOdk/view?usp=sharing))
+- [RGB-D (FoV 90) weights used in our paper](https://drive.google.com/file/d/16Vk3ummmyLvpQr16TzBL-iwZNlrELOdk/view?usp=sharing)
 - [Depth-only (FoV 90, R2R-CE)](https://drive.google.com/file/d/1goXbgLP2om9LsEQZ5XvB0UpGK4A5SGJC/view?usp=sharing)
 
 These models are used to predict candidate waypoints in the environment from visual input.
