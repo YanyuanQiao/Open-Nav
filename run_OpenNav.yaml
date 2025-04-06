@@ -1,0 +1,35 @@
+BASE_TASK_CONFIG_PATH: habitat_extensions/config/vlnce_task.yaml
+SIMULATOR_GPU_IDS: [0]
+TORCH_GPU_ID: 0
+TORCH_GPU_IDS: [0]
+TRAINER_NAME: schedulesampler-OPENNAV  
+GPU_NUMBERS: 1
+NUM_ENVIRONMENTS: 1
+CHECKPOINT_FOLDER: logs/checkpoints/
+EVAL_CKPT_PATH_DIR: logs/checkpoints/
+RESULTS_DIR: logs/eval_results/
+
+EVAL:
+  USE_CKPT_CONFIG: False
+  SPLIT: val_unseen
+  EPISODE_COUNT: -1
+
+MODEL:
+  policy_name: PolicyViewSelectionCMA
+  spatial_output: False
+  RGB_ENCODER:
+    encode_size: 2048
+    output_size: 512
+  DEPTH_ENCODER:
+    encode_size: 128
+    output_size: 256
+    ddppo_checkpoint: data/pretrained_models/ddppo-models/gibson-2plus-resnet50.pth
+  VISUAL_DIM:
+    vis_hidden: 512
+    directional: 64
+  INSTRUCTION_ENCODER:
+    bidirectional: True
+    use_pretrained_embeddings: False
+    embedding_size: 256
+    hidden_size: 256
+
