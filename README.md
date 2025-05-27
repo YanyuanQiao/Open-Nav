@@ -60,21 +60,6 @@ To download the scenes:
 ```bash
 python download_mp.py --task habitat -o data/scene_datasets/mp3d/
 ```
-### Adapted MP3D Connectivity Graphs for Continuous Environments
-
-To support **continuous navigation**, we adapt the [MP3D connectivity graphs](https://github.com/peteanderson80/Matterport3DSimulator/tree/master/connectivity) originally defined for discrete environments.
-
-These adapted graphs ensure that:
-- All **nodes** are located in navigable open space.
-- All **edges** are fully traversable by the agent using [VLN-CE configurations](https://github.com/jacobkrantz/VLN-CE/tree/master/habitat_extensions/config).
-
-You can download the adapted connectivity graphs from the following link:
-
-🔗 [Download Adapted Graphs (Google Drive)](https://drive.google.com/file/d/1FDJzwne0KgoHvLHyBRuXMIqLD_BW-UrM/view?usp=sharing)
-
-Each file corresponds to a specific MP3D scene and contains:
-- A list of node positions (some inherited from the original graph, others newly added).
-- Edges connecting adjacent nodes to ensure full connectivity in continuous space.
 
 Expected directory structure:
 ```
