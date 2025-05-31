@@ -290,7 +290,7 @@ class BaseVLNCETrainerLLM(BaseILTrainer):
             episodes_allowed=self.traj
         ) 
 
-        envs.number_of_episodes = [1] # set the number of episodes
+        #envs.number_of_episodes = [1] # set the number of episodes
         dataset_length = sum(envs.number_of_episodes) 
         print('local rank:', self.local_rank, '|', 'dataset length:', dataset_length)
 
